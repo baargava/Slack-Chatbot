@@ -1,0 +1,31 @@
+{
+  "name": "slack_bot",
+  "version": "1.0.0",
+  "description": "hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "baargav",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^4.2.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "convertapi": "^1.15.0",
+    "docx-pdf": "^0.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "libreoffice-convert": "^1.6.0",
+    "ngrok": "^5.0.0-beta.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "pdf-poppler": "^0.2.1",
+    "pdf2docx": "^0.0.0",
+    "request": "^2.88.2",
+    "sharp": "^0.33.5"
+  }
+}
